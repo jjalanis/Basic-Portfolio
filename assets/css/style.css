@@ -1,8 +1,3 @@
-section {
-    width: 100%;
-    background: #ffffff;
-}
-
 .menu{  
     background-color: blueviolet;
     overflow: hidden;
@@ -22,5 +17,27 @@ section {
     margin-left: 20%;
     text-align: center;
     padding: 0px 20px;
-        
+}
+section{
+    background-color: gray;
+    overflow: hidden;
+}
+#photo{
+    float:left;
+}
+area{
+    float:left;
+    display: block;
+    background-color: chocolate;
+    overflow: hidden;
+    height: 80%;
+}
+
+#text{
+    content: block;
+    float:left;
+    background-color: #199b72;
+    margin-left: 20%;
+    text-align: center;
+    padding: 0px 20px;    
 }
