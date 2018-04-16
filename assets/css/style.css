@@ -1,0 +1,26 @@
+section {
+    width: 100%;
+    background: #ffffff;
+}
+
+.menu{  
+    background-color: blueviolet;
+    overflow: hidden;
+    }
+.menu a{
+    float: right;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: cyan;
+}
+#header{
+    float:left;
+    background-color: #199b72;
+    margin-left: 20%;
+    text-align: center;
+    padding: 0px 20px;
+        
+}
