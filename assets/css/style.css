@@ -20,24 +20,22 @@
 }
 section{
     background-color: gray;
-    overflow: hidden;
 }
 #photo{
-    float:left;
+    overflow:auto;
 }
-area{
-    float:left;
-    display: block;
-    background-color: chocolate;
-    overflow: hidden;
-    height: 80%;
+img{
+    width: 33.3%;
+    display:inline;
+    float: left;
+}
+.area{
+    padding: 10px;
+    margin: 0% 15%;
 }
 
-#text{
-    content: block;
-    float:left;
+.text{
+    display: inline;
     background-color: #199b72;
-    margin-left: 20%;
-    text-align: center;
-    padding: 0px 20px;    
+    text-align: left;
 }
