@@ -1,51 +1,83 @@
 .menu{  
-    background-color: blueviolet;
+    background-color: white;
     overflow: hidden;
     }
 .menu a{
     float: right;
-    color:#f2f2f2;
+    color:#777777;
     text-align: center;
     padding: 15px 20px;
+    margin: 0px;
+    m
     text-decoration: none;
     font-size: 17px;
-    background-color: cyan;
+    background-color: white;
 }
 #header{
     float:left;
-    background-color: #199b72;
-    margin-left: 20%;
+    background-color: #4aaaa5;
+    margin-left: 15%;
     text-align: center;
     padding: 0px 20px;
+    border-color: #dddddd;
+
 }
-section{
+div{
     background-color: gray;
 }
 img{
     width: 30%;
     float: left;
     margin: 0px 3.3% 10px;
+    clear:left;
 }
-.area{
-    padding: 0px;
+.about{
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    background-color: #ffffff;
+    padding: 15px 0px 0px 0px;
+
+}
+.all{       /*Big area*/
+    padding: 40px 0% 80px;
+    margin: 0%;
+
+}
+.area{ /*Area with photo and text*/
     margin: 0% 15%;
+    background-color: #ffffff;
     overflow: auto;
 }
 
-.text{
+.text{ /*just text area*/
     display: block;
-    background-color: #199b72;
+    background-color:#ffffff;
     text-align: justify;
+    margin: 0 2% 0 0;
 }
 p{
    font-size: 15px;
    margin: 0px;
    padding: 0px;
-
+   color: #777777;
 }
 p.name{
-    color: indianred;
+    color: #ffffff;
     text-align: center;
     padding: 15px 20px;
     font-size: 17px;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    color: #4aaaa5
+}
+
+#footer{
+   color: #666666;
+}
+#line{
+    margin: 10px 20px;   /*Spaces in line About me*/
+    border-color: #777777;    
+    border-width: 1px;
 }
