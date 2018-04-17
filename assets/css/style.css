@@ -21,21 +21,31 @@
 section{
     background-color: gray;
 }
-#photo{
-    overflow:auto;
-}
 img{
-    width: 33.3%;
-    display:inline;
+    width: 30%;
     float: left;
+    margin: 0px 3.3% 10px;
 }
 .area{
-    padding: 10px;
+    padding: 0px;
     margin: 0% 15%;
+    overflow: auto;
 }
 
 .text{
-    display: inline;
+    display: block;
     background-color: #199b72;
-    text-align: left;
+    text-align: justify;
+}
+p{
+   font-size: 15px;
+   margin: 0px;
+   padding: 0px;
+
+}
+p.name{
+    color: indianred;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 17px;
 }
