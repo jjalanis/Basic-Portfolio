@@ -8,7 +8,6 @@
     text-align: center;
     padding: 15px 20px;
     margin: 0px;
-    m
     text-decoration: none;
     font-size: 17px;
     background-color: white;
@@ -23,7 +22,7 @@
 
 }
 div{
-    background-color: gray;
+    
 }
 img{
     width: 30%;
@@ -41,6 +40,7 @@ img{
 .all{       /*Big area*/
     padding: 40px 0% 80px;
     margin: 0%;
+    background-image: url("../images/grilled.png");
 
 }
 .area{ /*Area with photo and text*/
