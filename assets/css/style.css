@@ -21,15 +21,33 @@
     border-color: #dddddd;
 
 }
-div{
-    
+.image{
+    width: 30%;
+    float: left;
+    display: block;
+
 }
 img{
-    width: 30%;
+    width: 100%;
     float: left;
     margin: 0px 3.3% 10px;
 
 }
+#img1{
+    width: 90%;
+    float: left;
+    margin: 0px 3.3% 10px;
+}
+
+.box{
+    width: 90%;
+    text-align: center;
+    clear: both;
+    margin: 0px 50px 10px 0px;
+    float: left;
+
+}
+
 .about{
     margin: 0px 0px 0px 20px;
     padding: 0;
