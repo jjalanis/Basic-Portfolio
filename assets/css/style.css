@@ -25,29 +25,33 @@
     width: 30%;
     float: left;
     display: block;
+    margin: 0px 0px 10px 3.3%;
 
 }
 img{
     width: 100%;
     float: left;
     margin: 0px 3.3% 10px;
-
+}
+#imgabout{
+    width: 33.3%;
 }
 #img1{
     width: 90%;
     float: left;
-    margin: 0px 3.3% 10px;
+    margin: 0px 3.3% 10px 0px;
 }
-
 .box{
+    position: relative;
+    bottom: 50px;
     width: 90%;
     text-align: center;
-    clear: both;
     margin: 0px 50px 10px 0px;
     float: left;
-
+    background: #4aaaa5;
+    color: white;
+    padding: 5px 0px;
 }
-
 .about{
     margin: 0px 0px 0px 20px;
     padding: 0;
@@ -90,7 +94,6 @@ h2{
     padding: 0px;
     color: #4aaaa5
 }
-
 #footer{
    color: #666666;
 }
