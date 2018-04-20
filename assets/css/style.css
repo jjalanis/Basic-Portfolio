@@ -102,3 +102,13 @@ h2{
     border-color: #777777;    
     border-width: 1px;
 }
+input[type="text"]{
+    background: #ffffff;
+    margin:;
+
+}
+input[type="email"]{
+    background: #ffffff;
+    margin:;
+    
+}
